@@ -1,2 +1,3 @@
-# web-vanillapos
-A pure HTML, CSS and JavaScript Point Of Sales. No frameworks used.
+# Web VanillaPos
+
+**Web VanillaPos** is a *HTML, JavaScript* and *CSS* Point Of Sales. No frameworks used.
