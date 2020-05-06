@@ -53,6 +53,7 @@ body
 .numpad {
 	border: 6px solid gray;
 	width: 270px;
+	margin: 0 auto;
 }
 
 .clear {
@@ -61,7 +62,7 @@ body
 
 .ticket {
 	background-color: white;
-	width: 90%;
-	height: 60%;
+	width: 70%;
+	height: 90%;
 	margin: 0 auto;
 }
