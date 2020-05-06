@@ -43,6 +43,7 @@ body
 	text-align: center;
 	line-height: 80px;
 	font-size: 26px;
+	border-radius: 4px;
 }
 
 .button-row {
