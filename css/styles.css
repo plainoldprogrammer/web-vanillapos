@@ -2,3 +2,20 @@ body
 {
 	background: #eaeaea;
 }
+
+.main-container {
+	background-color: red;
+	width: 100%;
+}
+
+.left-panel {
+	width: 50%;
+	float: left;
+	background-color: blue;
+}
+
+.right-panel {
+	width: 50%;
+	float: left;
+	background-color: green;
+}
