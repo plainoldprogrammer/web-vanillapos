@@ -53,7 +53,7 @@ body
 }
 
 .numpad {
-	border: 6px solid gray;
+	border: 6px solid white;
 	width: 270px;
 	margin: 0 auto;
 }
@@ -67,4 +67,23 @@ body
 	width: 70%;
 	height: 90%;
 	margin: 0 auto;
+}
+
+.menu {
+	border: 6px solid gray;
+	width: 520px;
+	margin: 0 auto;
+}
+
+.menu-item {
+	background-color: #98d6ff;
+	width: 80px;
+	height: 80px;
+	margin: 3px;
+	float: left;
+	cursor: hand;
+}
+
+.menu-row {
+	clear: left;
 }
