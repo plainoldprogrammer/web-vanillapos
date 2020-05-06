@@ -22,3 +22,7 @@ body
 	width: 50%;
 	height: 100%;
 }
+
+.status-bar {
+	background-color: yellow;
+}
