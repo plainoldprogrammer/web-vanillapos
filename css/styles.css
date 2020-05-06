@@ -12,14 +12,21 @@ body
 .left-panel {
 	background-color: blue;
 	float: left;
-	width: 50%;
+	width: 33.3%;
+	height: 100%;
+}
+
+.center-panel {
+	background-color: pink;
+	float: left;
+	width: 33.3%;
 	height: 100%;
 }
 
 .right-panel {
 	background-color: green;
 	float: left;
-	width: 50%;
+	width: 33.3%;
 	height: 100%;
 }
 
