@@ -40,6 +40,8 @@ body
 	height: 80px;
 	margin: 5px;
 	float: left;
+	text-align: center;
+	line-height: 80px;
 }
 
 .button-row {
