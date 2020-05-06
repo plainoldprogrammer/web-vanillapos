@@ -6,17 +6,19 @@ body
 .main-container {
 	background-color: red;
 	width: 100%;
-	overflow: auto;
+	height: 80%;
 }
 
 .left-panel {
-	width: 50%;
-	float: left;
 	background-color: blue;
+	float: left;
+	width: 50%;
+	height: 100%;
 }
 
 .right-panel {
-	width: 50%;
-	float: left;
 	background-color: green;
+	float: left;
+	width: 50%;
+	height: 100%;
 }
