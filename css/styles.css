@@ -54,3 +54,10 @@ body
 .clear {
 	clear: left;
 }
+
+.ticket {
+	background-color: white;
+	width: 90%;
+	height: 60%;
+	margin: 0 auto;
+}
