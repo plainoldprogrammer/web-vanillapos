@@ -36,8 +36,8 @@ body
 
 .button {
 	background-color: #e1e1e1;
-	width: 80px;
-	height: 80px;
+	width: 120px;
+	height: 120px;
 	margin: 5px;
 	float: left;
 	text-align: center;
@@ -54,7 +54,7 @@ body
 
 .numpad {
 	border: 6px solid white;
-	width: 270px;
+	width: 390px;
 	margin: 0 auto;
 }
 
@@ -70,16 +70,16 @@ body
 }
 
 .menu {
-	border: 6px solid gray;
-	width: 520px;
+	border: 6px solid white;
+	width: 780px;
 	margin: 0 auto;
 }
 
 .menu-item {
 	background-color: #98d6ff;
-	width: 80px;
-	height: 80px;
-	margin: 3px;
+	width: 120px;
+	height: 120px;
+	margin: 5px;
 	float: left;
 	cursor: hand;
 }
