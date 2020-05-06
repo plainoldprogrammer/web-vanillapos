@@ -38,3 +38,12 @@ body
 .button-row {
 	clear: left;
 }
+
+.numpad {
+	border: 6px solid gray;
+	width: 270px;
+}
+
+.clear {
+	clear: left;
+}
