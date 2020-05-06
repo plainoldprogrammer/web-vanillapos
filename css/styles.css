@@ -26,3 +26,7 @@ body
 .status-bar {
 	background-color: yellow;
 }
+
+.button {
+	display: inline;
+}
