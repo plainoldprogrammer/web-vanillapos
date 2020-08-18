@@ -1,89 +1,89 @@
 body 
 {
-	background: #eaeaea;
+  background: #eaeaea;
 }
 
 .main-container {
-	background-color: red;
-	width: 100%;
-	height: 80%;
+  background-color: red;
+  width: 100%;
+  height: 80%;
 }
 
 .left-panel {
-	background-color: #808080;
-	float: left;
-	width: 33.3%;
-	height: 100%;
+  background-color: #808080;
+  float: left;
+  width: 33.3%;
+  height: 100%;
 }
 
 .center-panel {
-	background-color: #909090;
-	float: left;
-	width: 33.3%;
-	height: 100%;
+  background-color: #909090;
+  float: left;
+  width: 33.3%;
+  height: 100%;
 }
 
 .right-panel {
-	background-color: #808080;
-	float: left;
-	width: 33.3%;
-	height: 100%;
+  background-color: #808080;
+  float: left;
+  width: 33.3%;
+  height: 100%;
 }
 
 .status-bar {
-	background-color: #A0A0A0;
+  background-color: #A0A0A0;
 }
 
 .button {
-	background-color: #e1e1e1;
-	width: 120px;
-	height: 120px;
-	margin: 5px;
-	float: left;
-	text-align: center;
-	line-height: 80px;
-	font-size: 26px;
-	border-radius: 4px;
-	cursor: hand;
-	font-weight: bold;
+  background-color: #e1e1e1;
+  width: 120px;
+  height: 120px;
+  margin: 5px;
+  float: left;
+  text-align: center;
+  line-height: 80px;
+  font-size: 26px;
+  border-radius: 4px;
+  cursor: hand;
+  font-weight: bold;
 }
 
 .button-row {
-	clear: left;
+  clear: left;
 }
 
 .numpad {
-	border: 6px solid white;
-	width: 390px;
-	margin: 0 auto;
+  border: 6px solid white;
+  width: 390px;
+  margin: 0 auto;
 }
 
 .clear {
-	clear: left;
+  clear: left;
 }
 
 .ticket {
-	background-color: white;
-	width: 70%;
-	height: 90%;
-	margin: 0 auto;
+  background-color: white;
+  width: 70%;
+  height: 90%;
+  margin: 0 auto;
 }
 
 .menu {
-	border: 6px solid white;
-	width: 780px;
-	margin: 0 auto;
+  border: 6px solid white;
+  width: 780px;
+  margin: 0 auto;
 }
 
 .menu-item {
-	background-color: #98d6ff;
-	width: 120px;
-	height: 120px;
-	margin: 5px;
-	float: left;
-	cursor: hand;
+  background-color: #98d6ff;
+  width: 120px;
+  height: 120px;
+  margin: 5px;
+  float: left;
+  cursor: hand;
 }
 
 .menu-row {
-	clear: left;
+  clear: left;
 }
