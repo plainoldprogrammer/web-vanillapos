@@ -18,6 +18,10 @@ function initMenu() {
   });
 }
 
+function processMenuItem() {
+  console.log("processing a menu item");
+}
+
 let menu;
 initMenu();
 
@@ -35,14 +39,10 @@ menu.forEach(menuItem => {
     rightDigit = 0;
     leftDigit++;
   }
-});
 
-function processMenuItem() {
-  console.log("processing a menu item");
-}
+  element.addEventListener("click", function() {
+    console.log('item clicked');
+    processMenuItem();
+  });
 
-let button = document.getElementById("item-00");
-button.addEventListener("click", function() {
-  console.log('item-00 clicked');
-  processMenuItem();
 });
