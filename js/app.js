@@ -37,7 +37,12 @@ menu.forEach(menuItem => {
   }
 });
 
+function processMenuItem() {
+  console.log("processing a menu item");
+}
+
 let button = document.getElementById("item-00");
 button.addEventListener("click", function() {
   console.log('item-00 clicked');
+  processMenuItem();
 });
