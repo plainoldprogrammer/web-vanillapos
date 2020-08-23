@@ -18,8 +18,8 @@ function initMenu() {
   });
 }
 
-function processMenuItem() {
-  console.log("processing a menu item");
+function processMenuItem(item) {
+  console.log("processing a menu item with: ", item);
 }
 
 let menu;
@@ -41,7 +41,7 @@ menu.forEach(menuItem => {
   }
 
   element.addEventListener("click", function() {
-    processMenuItem();
+    processMenuItem(menuItem.name);
   });
 
 });
