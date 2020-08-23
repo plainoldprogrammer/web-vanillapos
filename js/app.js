@@ -36,3 +36,8 @@ menu.forEach(menuItem => {
     leftDigit++;
   }
 });
+
+let button = document.getElementById("item-00");
+button.addEventListener("click", function() {
+  console.log('item-00 clicked');
+});
