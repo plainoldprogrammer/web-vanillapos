@@ -41,8 +41,8 @@ menu.forEach(menuItem => {
   }
 
   element.addEventListener("click", function() {
-    console.log('item clicked');
     processMenuItem();
   });
 
 });
+
