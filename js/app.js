@@ -34,6 +34,10 @@ function itemQuantityClicked(quantity) {
 }
 
 function menuItemClicked(item) {
+  let element = document.getElementById("ticket");
+  let text = document.createTextNode(item);
+  element.appendChild(text);
+
   console.log("item: ", item);
 }
 
