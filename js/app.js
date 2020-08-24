@@ -12,15 +12,32 @@ function loadJSON(callback) {
   xobj.send(null);
 }
 
+function initNumpad() {
+  let element;
+  for (let i = 0; i < 10; i++) {
+    element = document.getElementById("button-quantity-" + i);
+    console.log(element);
+    element.addEventListener("click", function() {
+      itemQuantityClicked(i);
+    });
+  }
+}
+
 function initMenu() {
   loadJSON(function(response) {
     menu = JSON.parse(response);
   });
 }
 
+function itemQuantityClicked(quantity) {
+  console.log("quantity: ", quantity);
+}
+
 function menuItemClicked(item) {
   console.log("processing a menu item with: ", item);
 }
+
+initNumpad();
 
 let menu;
 initMenu();
