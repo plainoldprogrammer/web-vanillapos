@@ -29,7 +29,7 @@ let leftDigit = 0;
 let rightDigit = 0;
 
 menu.forEach(menuItem => {
-  let element = document.getElementById("item-" + leftDigit + "" + rightDigit);
+  let element = document.getElementById("button-item-" + leftDigit + "" + rightDigit);
   let text = document.createTextNode(menuItem.name);
   element.appendChild(text);
 
