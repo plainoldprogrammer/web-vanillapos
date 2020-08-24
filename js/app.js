@@ -27,6 +27,9 @@ function initMenu() {
 }
 
 function itemQuantityClicked(quantity) {
+  let ticket = document.getElementById("ticket");
+  let itemQuantity = document.createTextNode(quantity);
+  ticket.appendChild(itemQuantity);
 }
 
 function menuItemClicked(item) {
