@@ -18,7 +18,7 @@ function initMenu() {
   });
 }
 
-function processMenuItem(item) {
+function menuItemClicked(item) {
   console.log("processing a menu item with: ", item);
 }
 
@@ -41,8 +41,7 @@ menu.forEach(menuItem => {
   }
 
   element.addEventListener("click", function() {
-    processMenuItem(menuItem.name);
+    menuItemClicked(menuItem.name);
   });
 
 });
-
