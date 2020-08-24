@@ -30,9 +30,12 @@ function itemQuantityClicked(quantity) {
 }
 
 function menuItemClicked(item) {
-  let element = document.getElementById("ticket");
-  let text = document.createTextNode(item);
-  element.appendChild(text);
+  let ticket = document.getElementById("ticket");
+  let itemName = document.createTextNode(item);
+  ticket.appendChild(itemName);
+
+  let blank = document.createElement("br");
+  ticket.appendChild(blank);
 }
 
 initNumpad();
