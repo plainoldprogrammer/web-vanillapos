@@ -34,7 +34,7 @@ function itemQuantityClicked(quantity) {
 }
 
 function menuItemClicked(item) {
-  console.log("processing a menu item with: ", item);
+  console.log("item: ", item);
 }
 
 initNumpad();
