@@ -1,5 +1,3 @@
-console.log("JavaScript is running...");
-
 function loadJSON(callback) {
   var xobj = new XMLHttpRequest();
   xobj.overrideMimeType("menu.json");
@@ -16,7 +14,6 @@ function initNumpad() {
   let element;
   for (let i = 0; i < 10; i++) {
     element = document.getElementById("button-quantity-" + i);
-    console.log(element);
     element.addEventListener("click", function() {
       itemQuantityClicked(i);
     });
@@ -30,11 +27,18 @@ function initMenu() {
 }
 
 function itemQuantityClicked(quantity) {
-  console.log("quantity: ", quantity);
+  let ticket = document.getElementById("ticket");
+  let itemQuantity = document.createTextNode(quantity);
+  ticket.appendChild(itemQuantity);
 }
 
 function menuItemClicked(item) {
-  console.log("item: ", item);
+  let ticket = document.getElementById("ticket");
+  let itemName = document.createTextNode(item);
+  ticket.appendChild(itemName);
+
+  let blank = document.createElement("br");
+  ticket.appendChild(blank);
 }
 
 initNumpad();
