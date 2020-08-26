@@ -32,6 +32,13 @@ function initMenu() {
   });
 }
 
+function initStatusBar() {
+  let date = document.createTextNode(new Date().getDay() + '/' + new Date().getMonth() + '/' + new Date().getFullYear());
+
+  let statusBar = document.getElementById('status-bar');
+  statusBar.appendChild(date);
+}
+
 function itemQuantityClicked(quantity) {
   let ticket = document.getElementById("ticket");
   let itemQuantity = document.createTextNode(quantity);
@@ -47,10 +54,10 @@ function menuItemClicked(item) {
   ticket.appendChild(blank);
 }
 
-initNumpad();
-
 let menu;
+initNumpad();
 initMenu();
+initStatusBar();
 
 let leftDigit = 0;
 let rightDigit = 0;
