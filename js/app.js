@@ -64,5 +64,4 @@ menu.forEach(menuItem => {
   element.addEventListener("click", function() {
     menuItemClicked(menuItem.name);
   });
-
 });
