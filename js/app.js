@@ -18,6 +18,12 @@ function initNumpad() {
       itemQuantityClicked(i);
     });
   }
+
+  element = document.getElementById("button-clear-all");
+  element.addEventListener("click", function() {
+    let ticket = document.getElementById("ticket");
+    console.log('clearing the ticket');
+  });
 }
 
 function initMenu() {
