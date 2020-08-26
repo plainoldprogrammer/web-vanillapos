@@ -81,6 +81,12 @@ body
   height: 80%;
 }
 
+.ticket-footer {
+  background-color: darkgray;
+  width: 100%;
+  height: 10%;
+}
+
 .menu {
   border: 6px solid white;
   width: 780px;
