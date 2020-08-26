@@ -69,6 +69,12 @@ body
   margin: 0 auto;
 }
 
+.ticket-order {
+  background-color: lightgray;
+  width: 100%;
+  height: 80%;
+}
+
 .menu {
   border: 6px solid white;
   width: 780px;
