@@ -42,6 +42,10 @@ function itemQuantityClicked(quantity) {
   let ticket = document.getElementById("ticket-order");
   let itemQuantity = document.createTextNode(quantity);
   ticket.appendChild(itemQuantity);
+
+  let entry = createNewEntry();
+  entry.quantity = Number(itemQuantity.textContent);
+  console.log(entry);
 }
 
 function menuItemClicked(item) {
@@ -51,6 +55,10 @@ function menuItemClicked(item) {
 
   let blank = document.createElement("br");
   ticket.appendChild(blank);
+}
+
+function createNewEntry() {
+  return { quantity: 0, item: ""};
 }
 
 let menu;
