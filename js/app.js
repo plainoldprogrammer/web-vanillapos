@@ -56,7 +56,6 @@ function menuItemClicked(item) {
   ticket.appendChild(blank);
 
   entry.item = itemName.textContent;
-  console.log(entry);
 }
 
 function createNewEntry() {
