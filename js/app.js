@@ -57,8 +57,6 @@ function menuItemClicked(item) {
 
   entry.item = itemName.textContent;
   entries.push(entry);
-  console.log('\n');
-  console.log(entries);
 }
 
 function createNewEntry() {
