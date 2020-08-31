@@ -56,6 +56,9 @@ function menuItemClicked(item) {
   ticket.appendChild(blank);
 
   entry.item = itemName.textContent;
+  entries.push(entry);
+  console.log('\n');
+  console.log(entries);
 }
 
 function createNewEntry() {
@@ -87,4 +90,5 @@ menu.forEach(menuItem => {
   });
 });
 
+let entries = new Array();
 let entry;
