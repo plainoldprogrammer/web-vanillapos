@@ -39,13 +39,13 @@ function initStatusBar() {
 }
 
 function itemQuantityClicked(quantity) {
-  let ticket = document.getElementById("ticket");
+  let ticket = document.getElementById("ticket-order");
   let itemQuantity = document.createTextNode(quantity);
   ticket.appendChild(itemQuantity);
 }
 
 function menuItemClicked(item) {
-  let ticket = document.getElementById("ticket");
+  let ticket = document.getElementById("ticket-order");
   let itemName = document.createTextNode(item);
   ticket.appendChild(itemName);
 
