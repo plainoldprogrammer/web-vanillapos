@@ -43,9 +43,8 @@ function itemQuantityClicked(quantity) {
   let itemQuantity = document.createTextNode(quantity);
   ticket.appendChild(itemQuantity);
 
-  let entry = createNewEntry();
+  entry = createNewEntry();
   entry.quantity = Number(itemQuantity.textContent);
-  console.log(entry);
 }
 
 function menuItemClicked(item) {
@@ -55,6 +54,9 @@ function menuItemClicked(item) {
 
   let blank = document.createElement("br");
   ticket.appendChild(blank);
+
+  entry.item = itemName.textContent;
+  console.log(entry);
 }
 
 function createNewEntry() {
@@ -85,3 +87,5 @@ menu.forEach(menuItem => {
     menuItemClicked(menuItem.name);
   });
 });
+
+let entry;
