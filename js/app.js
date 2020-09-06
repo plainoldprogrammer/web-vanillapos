@@ -21,7 +21,9 @@ function initNumpad() {
 
   element = document.getElementById("button-clear-all");
   element.addEventListener("click", function() {
-    let ticket = document.getElementById("ticket");
+    let ticket = document.getElementById('ticket');
+    let ticketOrderSection = document.getElementById('ticket-order');
+    ticket.removeChild(ticketOrderSection);
   });
 }
 
