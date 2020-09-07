@@ -24,6 +24,12 @@ function initNumpad() {
     let ticket = document.getElementById('ticket');
     let ticketOrderSection = document.getElementById('ticket-order');
     ticket.removeChild(ticketOrderSection);
+
+
+    let newOrderSection = document.createElement("div");
+    newOrderSection.innerText = 'New ticket order section';
+    let ticketHeader = document.getElementById("ticket-header");
+    ticketHeader.parentNode.insertBefore(newOrderSection, ticketHeader.nextElementSibling);
   });
 }
 
