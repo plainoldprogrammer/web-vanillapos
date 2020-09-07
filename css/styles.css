@@ -95,16 +95,6 @@ body
 
 .menu-item {
   background-color: #98d6ff;
-  width: 120px;
-  height: 120px;
-  margin: 5px;
-  float: left;
-  text-align: center;
-  line-height: 120px;
-  font-size: 26px;
-  border-radius: 4px;
-  cursor: hand;
-  font-weight: bold;
 }
 
 .menu-row {
