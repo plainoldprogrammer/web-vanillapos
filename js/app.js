@@ -49,7 +49,7 @@ function initStatusBar() {
 
 function itemQuantityClicked(quantity) {
   let ticket = document.getElementById("ticket-order");
-  let itemQuantity = document.createTextNode(quantity);
+  let itemQuantity = document.createTextNode(quantity + ' ');
   ticket.appendChild(itemQuantity);
 
   entry = createNewEntry();
