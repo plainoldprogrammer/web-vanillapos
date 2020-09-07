@@ -27,7 +27,8 @@ function initNumpad() {
 
 
     let newOrderSection = document.createElement("div");
-    newOrderSection.innerText = 'New ticket order section';
+    newOrderSection.className = 'ticket-order';
+    newOrderSection.id = 'ticket-order';
     let ticketHeader = document.getElementById("ticket-header");
     ticketHeader.parentNode.insertBefore(newOrderSection, ticketHeader.nextElementSibling);
   });
