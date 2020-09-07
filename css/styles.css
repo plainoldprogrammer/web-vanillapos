@@ -74,6 +74,8 @@ body
   background-color: darkgray;
   width: 100%;
   height: 10%;
+  text-align: center;
+  line-height: 50px;
 }
 
 .ticket-order {
@@ -122,4 +124,9 @@ body
 
 .header-quantity-section {
   background-color: #808080;
+}
+
+.restaurant-name {
+  font-size: 1.6em;
+  font-weight: bold;
 }
