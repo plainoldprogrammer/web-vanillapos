@@ -73,13 +73,13 @@ body
 .ticket-header {
   background-color: darkgray;
   width: 100%;
-  height: 20%;
+  height: 10%;
 }
 
 .ticket-order {
   background-color: lightgray;
   width: 100%;
-  height: 70%;
+  height: 80%;
 }
 
 .ticket-footer {
