@@ -100,3 +100,13 @@ body
 .menu-row {
   clear: left;
 }
+
+.header-section {
+  height: 80px;
+  background-color: dimgray;
+  font-size: 45px;
+  text-align: center;
+  line-height: 80px;
+  color: white;
+  font-weight: bold;
+}
