@@ -139,3 +139,11 @@ body
 .restaurant-address {
   font-size: 22px;
 }
+
+.menu-item:active {
+  background-color: #5e9ec9;
+}
+
+.menu-quantity:active {
+  background-color: #a2a2a2;
+}
