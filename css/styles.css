@@ -46,6 +46,7 @@ body
   border-radius: 4px;
   cursor: hand;
   font-weight: bold;
+  user-select: none;
 }
 
 .button-row {
