@@ -101,6 +101,7 @@ body
   float: left;
   cursor: hand;
   text-align: center;
+  line-height: 120px;
 }
 
 .menu-row {
